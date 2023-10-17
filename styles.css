@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #154687;
+    color: white;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.simulator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.controls {
+    margin-bottom: 10px;
+}
+
+iframe {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+#loadPageButton {
+    text-align: center;
+    text-transform: uppercase;
+    background: #FAE81D;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 48px;
+    margin: 32px auto;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;
+    justify-content: center;
+}
+
+#urlInput {
+    height: 30px;
+    width: 250px;
+}
+
+#screenSizes {
+    height: 36px;
+}

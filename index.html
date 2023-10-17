@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Page Screen Resolution Simulator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Web Page Screen Resolution Simulator</h1>
+    </header>
+    <div class="simulator">
+        <div class="controls">
+            <input type="url" id="urlInput" placeholder="Enter URL">
+            <select id="screenSizes">
+                <option value="1920x1080">Desktop (1920x1080)</option>
+                <option value="768x1024">Tablet (768x1024)</option>
+                <option value="360x640">Mobile (360x640)</option> 
+            </select>
+            <button id="loadPageButton">Load Page</button>
+        </div>
+        <iframe id="previewFrame" width="800" height="600"></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
